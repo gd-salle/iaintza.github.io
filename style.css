@@ -1,0 +1,494 @@
+* {
+    padding: 0%;
+    font-family: "consolas";
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1434652917459-36f6692da944?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1956&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2 {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav a {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 3px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: crimson;
+    transition: 0.4s;
+}
+
+.button {
+    background-color: transparent;
+    color: crimson;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 1px 30px;
+    border-radius: 5px;
+    border: 1px solid crimson;
+}
+
+.button:hover {
+    color: white;
+    background-color: crimson;
+    transition: 0.4s;
+}
+
+.content {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+h4 {
+    color: white;
+    font-size: 55px;
+}
+
+#h41 {
+    color: crimson;
+    margin-bottom: 13px;
+}
+
+span {
+    font-family: Georgia;
+    color: crimson;
+}
+
+.content p {
+    padding-top: 10px;
+    color: beige;
+}
+
+#pbot {
+    margin-bottom: 42px;
+}
+
+.content h4 {
+    font-family: Georgia;
+}
+
+.content .button {
+    background-color: transparent;
+    border: 1px solid crimson;
+    color: crimson;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.content .button:hover {
+    background-color: crimson;
+    color: white;
+    transition: 0.4s;
+}
+
+.about {
+    width: 100%;
+    padding-top: 100px;
+    background-color: #ffe3a3;
+}
+
+.about-header p {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+#header-name {
+    font-family: Georgia;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #ffe3a3;
+}
+
+.service h1 {
+    letter-spacing: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: transparent;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #910F15;
+}
+
+.card:hover {
+    background: #910F15;
+    transition: 0.4s;
+}
+
+.card p {
+    color: black;
+    font-family: "courgette";
+    margin-bottom: 20px;
+}
+
+.card h5 {
+    color: black;
+    margin-top: 10px;
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+#n1 {
+    margin-top: 20px;
+}
+
+.card .button {
+    
+    background-color: #910F15;
+    color: white;
+}
+
+.card .button:hover {
+    transition: 0.4s;
+    background-color: white;
+    color: #910F15;
+}
+
+.card img {
+    margin-top: 20px;
+    width: 50px;
+    height: 60px;
+}
+
+.statistics {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #ffe3a3;
+}
+
+.stat-content img {
+    height: 530px;
+    width: 400px;
+}
+
+.stat-content {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 1130px;
+    max-width: 95%;
+    justify-content: space-around;
+}
+
+.content-about h3 {
+    color: #910F15;
+    font-family: Georgia;
+    font-size: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 8px;
+}
+
+.content-about p {
+    margin-bottom: 10px;
+}
+
+.content-about #bottom {
+    margin-bottom: 35px;
+}
+
+.user-stats {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stat-card p {
+    margin-bottom: 35px;
+}
+
+#content-button {
+    margin-left: 20px;
+    background-color: transparent;
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1px 30px;
+    border-radius: 5px;
+    border: 1px solid crimson;
+    padding: 10px 10px;
+}
+
+#content-button:hover {
+    color: white;
+    background-color: crimson;
+    transition: 0.4s;
+}
+
+.service-offer {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #ffe3a3;
+}
+
+.service-offer-header h3 {
+    font-family: Georgia;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-offer-header p {
+    margin-top: 10px;
+    color: #c3962d;
+    text-align: center;
+}
+
+.service-choice {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.service-choice a {
+    display: inline-block;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(216, 216, 216);
+}
+
+.service-choice a:hover {
+    color: white;
+    background-color: crimson;
+    transition: 0.4s;
+}
+
+#design {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#popular {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#market {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#develop {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.service-offer-box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.offer-card img {
+    margin-top: 5px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.offer-card {
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background: transparent;
+    border-radius: 0px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #910F15;
+}
+
+.offer-card h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.offer-card h5 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.offer-card p {
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-align: left;
+}
+.price-tag {
+    margin-top: 60px;
+    display: flex;
+}
+
+#price {
+    font-size: 20px;
+}
+
+.price-tag #btn {
+    color: crimson;
+    padding: 7px 6px;
+    border: 1px solid crimson;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.price-tag #btn:hover {
+    color: white;
+    background-color: crimson;
+    transition: 0.4s;
+}
+
+.price-tag1 {
+    margin-top: 40px;
+    display: flex;
+}
+.price-tag2 {
+    margin-top: 45px;
+    display: flex;
+}
+.price-tag2 a{
+    color: crimson;
+    padding: 7px 6px;
+    border: 1px solid crimson;
+    margin-left: 100px;
+    text-decoration: none;
+}
+.price-tag2 a:hover{
+    color: white;
+    background-color: crimson;
+    transition: 0.4s;
+}
+#price3 {
+    font-size: 20px;
+}
+
+#btn3 {
+    color: crimson;
+    padding: 7px 6px;
+    border: 1px solid crimson;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+#btn3:hover {
+    color: white;
+    background-color: crimson;
+    transition: 0.4s;
+}
+.footer{
+    padding-top: 10px;
+    background: #fbd98a;
+}
+#footer-name {
+    height: 30px;   
+    font-family: Georgia;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.companies{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#netflix{
+    margin-right: 20px;
+    height: 30px;
+    width: 100px;
+}
+#google{
+    margin-right: 20px;
+    height: 30px;
+    width: 100px;
+}
+#airbnb{
+    margin-right: 20px;
+    width: 100px;
+}
+#amazon{
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+}
+#grab{
+    margin-left: 10px;
+    height: 30px;
+    width: 70px;
+}
